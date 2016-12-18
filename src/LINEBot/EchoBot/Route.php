@@ -68,13 +68,13 @@ class Route
 
 //                $replyText = 'さえぴょん';
 //                $replyText = $event->getText();
-                $replyifText = $event ->getText();
+                $replyifText = $event->getText();
                     if (getText() = 'こんにちは') {
                     'さえぴょん'
                     }
                     else {
                     'tommy'
-                }
+                    }
                 $logger->info('Reply text: ' . $replyText);
                 $resp = $bot->replyText($event->getReplyToken(), $replyText);
                 $logger->info($resp->getHTTPStatus() . ': ' . $resp->getRawBody());
