@@ -66,7 +66,7 @@ class Route
                     continue;
                 }
 
-                $replyText = 'さえぴょん';
+                $replyText = 'トミー';
 //                $replyText = $event->getText();
                 $logger->info('Reply text: ' . $replyText);
                 $resp = $bot->replyText($event->getReplyToken(), $replyText);
