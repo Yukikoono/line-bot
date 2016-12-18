@@ -69,7 +69,7 @@ class Route
 //                $replyText = 'さえぴょん';
 //                $replyText = $event->getText();
                 $replyifText = $event ->getText();
-                $replyifText = if (getText() = 'こんにちは') {
+                    if (getText() = 'こんにちは') {
                     'さえぴょん'
                     }
                     else {
